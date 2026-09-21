@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="um quiz para saber seu rating no xadrez">
+    <title>Descubra seu rating no xadrez</title>
+    <link rel="stylesheet" href="pintura.css">
+</head>
+<body>
+    <header>
+        <h1>quiz para descobrir seu elo no xadrez</h1>
+        <p>responda as perguntas e descubra seu elo estimado</p>
+    </header>
+
+    <main>
+        <!--introdução-->
+        <section>
+            <h2><strong>sobre esse quiz</strong></h2>
+            <p>vc vai responder algumas perguntas e descobrirá seu <abbr title="nivel">rating</abbr> estimado</p>
+            <p>se vc tem curiosidade em saber seu potencial rating, esse é o quiz certo.</p>
+        </section>
+        
+        <!--pergunta 1-->
+        <section>
+            <h2>Pergunta 1: eu tenho dificuldades em saber onde o cavalo pula?</h2>
+            <form>
+                <input type="radio" value="2" id="p1a" name="pergunta1">
+                <label for="p1a">não</label><br>
+                <input type="radio" value="1" id="p1b" name="pergunta1">
+                <label for="p1b">não muito</label><br>
+                <input type="radio" value="0" id="p1c" name="pergunta1">
+                <label for="p1c">sim as vezes</label>
+            </form>
+        </section>
+        
+        <!--pergunta 2-->
+        <section>
+            <h2>pergunta 2: consigo ver todos os mates em 2?</h2>   
+            <form> 
+                <input type="radio" value="0" id="p2a" name="pergunta2">
+                <label for="p2a">não consigo ver todos</label><br>
+                <input type="radio" value="2" id="p2b" name="pergunta2">
+                <label for="p2b">sim, consigo ver todos</label><br>
+                <input type="radio" value="1" id="p2c" name="pergunta2">
+                <label for="p2c">às vezes</label>
+            </form>
+        </section>
+        
+        <!--pergunta 3-->
+        <section>
+            <h2>pergunta 3: quando vejo um cavalo ou bispo ou dama ou torre, quero trocar imediatamente para irmos a um final?</h2>
+            <form> 
+                <input type="radio" value="1" id="p3a" name="pergunta3">
+                <label for="p3a">as vezes</label><br>
+                <input type="radio" value="2" id="p3b" name="pergunta3">
+                <label for="p3b">não</label><br>
+                <input type="radio" value="0" id="p3c" name="pergunta3">
+                <label for="p3c">sim</label>
+            </form>
+        </section>
+        
+        <!--pergunta 4-->
+        <section>
+            <h2>pergunta 4: eu sei me defender do ataque fegatelo?</h2>
+            <form> 
+                <input type="radio" value="2" id="p4a" name="pergunta4">
+                <label for="p4a">sim, sei</label><br>
+                <input type="radio" value="0" id="p4b" name="pergunta4">
+                <label for="p4b">o que é ataque fegatelo?</label><br>
+                <input type="radio" value="1" id="p4c" name="pergunta4">
+                <label for="p4c">me sinto desconfortável com o ataque fegatelo</label>
+            </form>
+        </section>
+        
+        <!--pergunta 5-->
+        <section>
+            <h2>pergunta 5: eu apenas jogo peão e4 na abertura?</h2>
+            <form> 
+                <input type="radio" value="1" id="p5a" name="pergunta5">
+                <label for="p5a">eu só jogo e4 mas faço outras aberturas como italiana ou ruy lopez e outras também</label><br>
+                <input type="radio" value="2" id="p5b" name="pergunta5">
+                <label for="p5b">não</label><br>
+                <input type="radio" value="0" id="p5c" name="pergunta5">
+                <label for="p5c">sim</label>
+            </form>
+        </section>
+
+        <!--pergunta 6-->
+        <section>
+            <h2>pergunta 6: eu só sei jogar bem de brancas?</h2>
+            <form> 
+                <input type="radio" value="1" id="p6a" name="pergunta6">
+                <label for="p6a">eu sei jogar de pretas, mas sou melhor com as brancas</label><br>
+                <input type="radio" value="2" id="p6b" name="pergunta6">
+                <label for="p6b">não, jogo do mesmo nivel tanto de pretas ou brancas</label><br>
+                <input type="radio" value="0" id="p6c" name="pergunta6">
+                <label for="p6c">sim sou apenas bom de brancas</label>
+            </form>
+        </section>
+
+        <!--pergunta 7-->
+        <section>
+            <h2>pergunta 7: conheço e sei jogar as seguintes aberturas; ruy lopez, italiana, gambito da dama, gambito do rei, siciliana, escandinava, sistema london, índia do rei, benoni, catalã, pirc, caro-kann?</h2>
+            <form>
+                <input type="radio" value="2" id="p7a" name="pergunta7">
+                <label for="p7a">sim, sei todas essas de cor</label><br>
+                <input type="radio" value="0" id="p7b" name="pergunta7">
+                <label for="p7b">não, conheço apenas 4 pra baixo</label><br>
+                <input type="radio" value="1" id="p7c" name="pergunta7">
+                <label for="p7c">sei pelo menos 5 dessas</label>
+            </form>
+        </section>
+
+        <!--pergunta 8-->
+        <section>
+            <h2>pergunta 8: meu treinamento e estudo no xadrez são regulares?</h2>
+            <form>
+                <input type="radio" value="0" id="p8a" name="pergunta8">
+                <label for="p8a">não, jogo apenas por diversão</label><br>
+                <input type="radio" value="2" id="p8b" name="pergunta8">
+                <label for="p8b">sim, meu treinamento e estudo são regulares</label><br>
+                <input type="radio" value="1" id="p8c" name="pergunta8">
+                <label for="p8c">consigo meu treinamento e estudo irregulares, de vez em quando estudo</label>
+            </form>
+        </section>
+
+        <!--pergunta 9-->
+        <section>
+            <h2>pergunta 9: consigo jogar facilmente uma partida simultânea de olhos fechados?</h2>
+            <form>
+                <input type="radio" value="2" id="p9a" name="pergunta9">
+                <label for="p9a">sim, muito simples.</label><br>
+                <input type="radio" value="0" id="p9b" name="pergunta9">
+                <label for="p9b">não, vc é louco?</label><br>
+                <input type="radio" value="1" id="p9c" name="pergunta9">
+                <label for="p9c">consigo jogar vendado facilmente uma partida inteira, mas não uma simultânea</label>
+            </form>
+        </section>
+
+        <!--pergunta 10-->
+        <section>
+            <h2>pergunta 10: consigo calcular 10 lances à frente muito facilmente e rápido?</h2>
+            <form>
+                <input type="radio" value="1" id="p10a" name="pergunta10">
+                <label for="p10a">consigo calcular até 6 lances à frente, com um pouco de esforço.</label><br>
+                <input type="radio" value="0" id="p10b" name="pergunta10">
+                <label for="p10b">não, vc é louco?</label><br>
+                <input type="radio" value="2" id="p10c" name="pergunta10">
+                <label for="p10c">sim, consigo calcular até 10 lances à frente</label>
+            </form>
+        </section>
+
+        <!--pergunta 11-->
+        <section>
+            <h2>pergunta 11: consigo manter a concentração durante toda a partida?</h2>
+            <form>
+                <input type="radio" value="2" id="p11a" name="pergunta11">
+                <label for="p11a">sim, consigo manter a concentração do início ao fim.</label><br>
+                <input type="radio" value="1" id="p11b" name="pergunta11">
+                <label for="p11b">consigo manter a concentração na maior parte do tempo.</label><br>
+                <input type="radio" value="0" id="p11c" name="pergunta11">
+                <label for="p11c">não, perco a concentração facilmente.</label>
+            </form>
+        </section>
+
+        <!--pergunta 12-->
+        <section>
+            <h2>pergunta 12: consigo fazer anotações durante a partida?</h2>
+            <form>
+                <input type="radio" value="2" id="p12a" name="pergunta12">
+                <label for="p12a">sim, consigo fazer anotações durante a partida.</label><br>
+                <input type="radio" value="1" id="p12b" name="pergunta12">
+                <label for="p12b">consigo fazer anotações mas as vezes esqueço de registrar algumas jogadas ou esqueço de anotar detalhes importantes.</label><br>
+                <input type="radio" value="0" id="p12c" name="pergunta12">
+                <label for="p12c">não, não consigo fazer anotações durante a partida.</label>
+            </form>
+        </section>
+
+        <button type="button" onclick="calcularRating()" id="botao-calcular">Descobrir meu rating</button>
+        <div id="resultado"></div>
+    </main>
+
+    <!-- Qual nivel de rating -->
+    <section>
+        <h2>Descubra seu nível de rating</h2>
+        <table border="1">
+            <tr>
+                <th>Pontuação</th>
+                <th>Nível de rating</th>
+            </tr>
+            <tr>
+                <td>0 a 12 pontos</td>
+                <td>0 a 900 elo</td>
+            </tr>
+            <tr>
+                <td>13 a 15 pontos</td>
+                <td>900 a 1600 elo</td>
+            </tr>
+            <tr>
+                <td>16 a 19 pontos</td>
+                <td>1600 a 2000 elo</td>
+            </tr>
+            <tr>
+                <td>20 a 24 pontos</td>
+                <td>2300+ elo</td>
+            </tr>
+        </table>
+    </section>                  
+
+    <footer>
+        <h2>autor: super Gm camargo</h2>
+        <p class="pe">&copy; Todos os direitos reservados</p>
+    </footer>
+
+    <script src="codigo.js"></script>
+</body>
+</html>

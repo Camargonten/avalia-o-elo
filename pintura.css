@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    color:darkgreen;    
+    font-family: 'Quantico', sans-serif;
+
+}
+header {
+    background-color: darkgreen;
+    color: #f0f0f0;
+    padding: 2em;
+    text-align: center;
+}
+main {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    
+}
+section {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+ h2{
+    color:#1b263b;
+ }
+ table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table{ 
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+    background-color: #2E1A47;
+    color:#FF5500;
+    padding: 1rem;
+    text-align: center;
+}
+details 
+    footer {
+        
+        padding: 2em;
+        text-align: center;
+}  
+
+.pe {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 0.9rem;
+}
+
+
+
+
+#botao-calcular {
+    background-color: #e67e22; /* Escolhe a tua cor favorita */
+    color: #ffffff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto; /* Centraliza o botão no ecrã */
+    transition: background-color 0.3s ease;
+}
+
+#botao-calcular:hover {
+    background-color: #d35400; /* Efeito quando passas o rato por cima */
+}
+
+/* Estilo profissional e responsivo para a imagem de resultado do quiz */
+.imagem-resultado {
+    width: 100%;             /* No celular, ocupa toda a largura disponível */
+    max-width: 550px;        /* No computador, trava num tamanho ótimo e imponente */
+    height: auto;            /* Mantém a proporção original da imagem sem distorcer */
+    border-radius: 12px;     /* Deixa as bordas levemente arredondadas */
+    display: block;
+    margin: 20px auto;       /* Centraliza a imagem na tela com espaçamento */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); /* Adiciona uma sombra elegante em volta */
+}
+/* Estilo para os botões dinâmicos de ação do resultado */
+.btn-acao {
+    background-color: #e67e22;
+    color: #ffffff;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-acao:hover {
+    background-color: #d35400;
+    transform: translateY(-2px);
+}
