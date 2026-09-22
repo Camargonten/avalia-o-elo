@@ -39,7 +39,7 @@ function calcularRating() {
         imagemCaminho = "imagens/avancado.jpeg";
     } else if (totalPontos >= 20 && totalPontos <= 24) {
         nivelRating = "2000 a 2300 Elo (O Expert / Estrategista)";
-        imagemCaminho = "imagens/expert.jpeg";  
+        imagemCaminho = "imagens/mestre.jpeg";  
     } else {
         nivelRating = "2300+ Elo (O Mestre / Alienígena)";
         imagemCaminho = "imagens/mestre.jpeg";
