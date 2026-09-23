@@ -106,3 +106,9 @@ details
     background-color: #d35400;
     transform: translateY(-2px);
 }
+footer {
+    
+    color: #f0f0f0;
+    padding: 2em;
+    text-align: center;
+}
